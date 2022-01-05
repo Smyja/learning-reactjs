@@ -5,13 +5,29 @@
     "main": "index.js",
     "scripts": {
         "format": "prettier --write \"src/**/*.{js,jsx}\"",
-        "lint": "eslint \"src/**/*.{js,jsx}\" --quiet"
+        "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
+        "dev": "parcel src/index.html"
     },
     "author": "",
     "license": "ISC",
     "devDependencies": {
+        "@babel/core": "^7.12.16",
+        "@babel/preset-react": "^7.12.13",
         "eslint": "^8.6.0",
         "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-import": "^2.25.4",
+        "eslint-plugin-jsx-a11y": "^6.5.1",
+        "eslint-plugin-react": "^7.28.0",
+        "eslint-plugin-react-hooks": "^4.3.0",
+        "parcel": "^1.12.3",
         "prettier": "^2.5.1"
-    }
+    },
+    "dependencies": {
+        "react": "^17.0.1",
+        "react-dom": "^17.0.1"
+    },
+    "browserlist": [
+        "last 2 Chrome versions",
+        "last 2 Firefox versions"
+    ]
 }
