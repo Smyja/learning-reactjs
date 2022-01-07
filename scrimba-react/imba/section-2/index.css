@@ -37,6 +37,9 @@
                                         background: #161619;
                                         right: 0.5px;
                                         bottom: 0px;
+                                        display: flex;
+                                        justify-content: space-evenly;
+                                        padding-top: 10px;
                                     }
                                     
                                     .info {}
@@ -51,7 +54,9 @@
                                         top: -70px;
                                     }
                                     
-                                    .interest {}
+                                    .interest {
+                                        font-family: Inter;
+                                    }
                                     
                                     .info h3 {
                                         font-family: Inter;
@@ -143,4 +148,5 @@
                                     
                                     .about h3 {
                                         padding-top: 20px;
+                                        font-family: Inter;
                                     }
