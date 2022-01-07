@@ -1,0 +1,128 @@
+                                    * {
+                                        box-sizing: border-box;
+                                        margin: 0;
+                                        padding: 0;
+                                    }
+                                    
+                                    body {
+                                        background-color: #23252C;
+                                        color: white;
+                                    }
+                                    
+                                    .container {
+                                        width: 400px;
+                                        height: 500px;
+                                        padding: 100px;
+                                        margin: 10px;
+                                        position: absolute;
+                                        top: 50%;
+                                        left: 50%;
+                                        transform: translate(-50%, -50%);
+                                        background: #161619;
+                                    }
+                                    
+                                    .se {
+                                        left: 116px;
+                                        top: 44px;
+                                        background: url(https://lh3.googleusercontent.com/H8Ny1bQ0s-6VPE2A9hNGVXXPwKAE36lkv_tL3_lOSdsts0UqE1r2Jit-87OO-jongG28MSbGoMmJ3MrEvPaUgJIqNdYXoONVqIdZ=w600);
+                                        background-repeat: no-repeat;
+                                        border-radius: 10px 10px 0px 0px;
+                                    }
+                                    
+                                    .about {}
+                                    
+                                    footer {}
+                                    
+                                    .info {}
+                                    
+                                    div>img {}
+                                    
+                                    .interest {}
+                                    
+                                    .info h3 {
+                                        font-family: Inter;
+                                        font-size: 25px;
+                                        font-style: normal;
+                                        font-weight: 700;
+                                        line-height: 30px;
+                                        letter-spacing: 0em;
+                                        color: #FFFFFF;
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                    }
+                                    
+                                    .info h4 {
+                                        font-family: Inter;
+                                        font-size: 13px;
+                                        font-style: normal;
+                                        font-weight: 400;
+                                        line-height: 15px;
+                                        letter-spacing: 0em;
+                                        color: #F3BF99;
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                    }
+                                    
+                                    .about p {
+                                        font-family: Inter;
+                                        font-style: normal;
+                                        font-weight: normal;
+                                        font-size: 10.24px;
+                                        line-height: 150%;
+                                        /* or 15px */
+                                        color: #DCDCDC;
+                                        padding-top: 10px;
+                                        padding-bottom: 10px;
+                                    }
+                                    
+                                    .interest p {
+                                        font-family: Inter;
+                                        font-style: normal;
+                                        font-weight: normal;
+                                        font-size: 10.24px;
+                                        line-height: 150%;
+                                        /* or 15px */
+                                        color: #DCDCDC;
+                                        padding-top: 10px;
+                                        padding-bottom: 10px;
+                                    }
+                                    
+                                    button {
+                                        /* white */
+                                        background: #FFFFFF;
+                                        /* gray/300 */
+                                        border: 1px solid #D1D5DB;
+                                        box-sizing: border-box;
+                                        /* shadow/sm */
+                                        box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+                                        border-radius: 6px;
+                                        display: flex;
+                                        flex-direction: row;
+                                        justify-content: center;
+                                        align-items: center;
+                                        padding: 9px 13px 9px 11px;
+                                        width: 247px;
+                                        height: 34px;
+                                        left: 151px;
+                                        top: 469px;
+                                    }
+                                    
+                                    .info small {
+                                        font-family: Inter;
+                                        font-size: 10px;
+                                        font-style: normal;
+                                        font-weight: 400;
+                                        line-height: 15px;
+                                        letter-spacing: 0em;
+                                        text-align: center;
+                                        color: #F5F5F5;
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                    }
+                                    
+                                    .about h3 {
+                                        padding-top: 50px;
+                                    }
