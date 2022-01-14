@@ -11,3 +11,14 @@ const robot = {
 
   
   robot.numOfSensors
+
+  const pokemon = ["Bulbasaur", "Charmander", "Squirtle"]
+// -->          ["<p>Bulbasaur</p>", "<p>Charmander</p>", "<p>Squirtle</p>"]
+// Your code here
+
+let ai=pokemon.map(array=>"<p>"+array+"</p>")
+console.log(ai)
+
+/* */
+
+
